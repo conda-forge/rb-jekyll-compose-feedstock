@@ -1,5 +1,5 @@
 {% set name = "jekyll-compose" %}
-{% set version = "0.11.0" %}
+{% set version = "0.12.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 80ea6bd8cb3518185b8986defcab091b2746548a4bda6f807e150002df4a80ca
+  sha256: 0478638a921c5795b1e5b1ffdc769f3c405682e239b1de0117bde60af4edc8db
 
 build:
   noarch: generic
